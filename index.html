@@ -47,16 +47,18 @@
               clifford: "#da373d",
               accent: "#FFDC26",
               text_black: "#111111",
-              'hover-bg':"#252523"
+              "hover-bg": "#252523",
+              "card-bg": "#F9DF8A",
             },
           },
         },
       };
     </script>
   </head>
-  <body>
+  <body class="sora-secondary-font">
     <!-- header section start  -->
-    <header>
+    <header class="">
+      <!-- navbar start  -->
       <nav class="hidden">
         <div class="navbar bg-base-100">
           <div class="">
@@ -115,37 +117,125 @@
         </div>
       </nav>
       <!-- banner start  -->
-      <section class="max-w-screen-lg mx-auto">
+      <section class="max-w-screen-xl mx-auto">
         <div class="">
           <!-- content div  -->
-          <div class="space-y-4 absolute z-10 p-5">
-            <h1 class=" text-3xl lg:text-5xl font-bold title-font text_black">
+          <div class="absolute z-10 p-5 space-y-5">
+            <h1
+              class="text-3xl lg:text-5xl lg:leading-[60px] font-bold title-font text_black"
+            >
               Pamper Your Pet, <br />
               Because They Deserve <br />
               the Bes
             </h1>
-            <p class="text-xl">
+            <p class="text-xl lg:w-[435px]">
               Discover a world of treats, toys, and essentials handpicked for
-              your <br />
-              furry friends. Shop now and make tails wag with joy!
+              your furry friends. Shop now and make tails wag with joy!
             </p>
-            <div>
-              <a href="#"
-                ><button class="btn bg-accent text_black text-xl hover:bg-hover-bg hover:text-white">
-                  Find a pet
-                </button></a
+            <br />
+            <a href="#">
+              <button
+                class="px-4 py-3 rounded-lg bg-accent text_black text-xl hover:bg-hover-bg hover:text-white"
               >
-            </div>
+                Find a pet
+              </button></a
+            >
           </div>
           <!-- image div  -->
-          <div class="relative top-60 lg:top-10 z-0 ">
+          <div class="relative top-60 lg:top-10 z-0">
             <img src="./assets/cat-big.png" />
           </div>
         </div>
       </section>
     </header>
     <!-- main section start  -->
-    <main></main>
+    <main class="mt-72 mb-40 lg:mt-32">
+      <!-- Browse By Categories section  -->
+      <section class="max-w-screen-xl mx-auto px-5">
+        <div class="">
+          <h1 class="text-3xl font-bold title-font text-center lg:text-left">
+            Browse By Categories
+          </h1>
+          <div class="grid grid-cols-2 gap-3 lg:grid-cols-6 lg:gap-6 mt-5">
+            <!-- card-1  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/dog-cartoon.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+            <!-- card-2  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/fish-cartoon.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+            <!-- card-3  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/cat-cartoon.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+            <!-- card-4  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/bird-cartoon.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+            <!-- card-5  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/cute-pet-small.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+            <!-- card-6  -->
+            <div class="bg-card-bg py-12 rounded-lg">
+              <div class="text-center">
+                <div class="avatar">
+                  <div class="w-24 p-4 rounded-full bg-white">
+                    <img src="./assets/rabbit-cartoon.png" />
+                  </div>
+                </div>
+                <h3 class="text-xl title-font">Dog</h3>
+                <p class="text-base">3 items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Pet Products section  -->
+      <section class="max-w-screen-xl mx-auto px-5"></section>
+    </main>
     <!-- footer section start  -->
     <footer></footer>
   </body>
