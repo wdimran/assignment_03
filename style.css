@@ -1,0 +1,10 @@
+.sora-secondary-font > {
+  font-family: "Sora", serif;
+}
+.title-font {
+  font-family: "ADLaM Display", serif;
+}
+
+.popup {
+  transform: translate(0, -50%);
+}
